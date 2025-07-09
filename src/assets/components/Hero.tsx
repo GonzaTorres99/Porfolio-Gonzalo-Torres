@@ -39,7 +39,7 @@ const Hero = () => {
                 </h1>
 
                 <p className='text-white sm:text-lg my-6 lg:text-xl max-w-[600px] md:mx-0 mx-auto'>
-                    soy gonzalo torres y tengo muchos años de experiencia
+                    Desarrollador Fullstack freelance con recientes despliegues de proyectos innovadores. Experiencia adicional diseñando aulas virtuales para instituciones educativas.
                 </p>
 
                 <div className='flex flex-col sm:flex-row gap-4 my-8'>

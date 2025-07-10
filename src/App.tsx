@@ -6,6 +6,7 @@ import About from './assets/components/About'
 import Works from './assets/components/Works'
 import Contact from './assets/components/Contact'
 import Footer from './assets/components/Footer'
+import Freelancer from './assets/components/Freelancer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Skills/>
       <About/>
+      <Freelancer/>
       <Works/>
       <Contact/>
       <Footer/>

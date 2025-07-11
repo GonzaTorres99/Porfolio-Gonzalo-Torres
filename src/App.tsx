@@ -3,6 +3,7 @@ import NavBar from './assets/components/NavBar'
 import Hero from './assets/components/Hero'
 import Skills from './assets/components/Skills'
 import About from './assets/components/About'
+import Free from './assets/components/Free'
 import Works from './assets/components/Works'
 import Contact from './assets/components/Contact'
 import Footer from './assets/components/Footer'
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <About/>
       <Freelancer/>
+      <Free/>
       <Works/>
       <Contact/>
       <Footer/>

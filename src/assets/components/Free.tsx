@@ -4,7 +4,6 @@ import tablerobpa from '/tablerobpa.png';
 import { FaExternalLinkAlt, FaInfoCircle, FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const Free = () => {
-  const [activeProject, setActiveProject] = useState<number | null>(null);
   const [showDescription, setShowDescription] = useState(true);
 
   const projects = [
@@ -22,7 +21,7 @@ const Free = () => {
         "Panel de administración para profesores",
         "Gestión de inscripciones y suscripciones"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Cron", "Tailwind CSS", "Vercel", "Render"]
+      technologies: ["React", "Node.js", "MongoDB", "Cron", "Tailwind CSS", "Render", "Vercel"]
     },
     {
       id: 2,
@@ -33,17 +32,14 @@ const Free = () => {
       features: [
         "Visualización en tiempo real del marcador",
         "Diseño optimizado para pantallas grandes",
+        "Control remoto del marcador",
         "Cronómetro integrado",
-        "Bocina integrada para señalización",
-        "Personalización de equipos para distintos partidos"
+        "Sistema de periodos y tiempos muertos",
+        "Personalización para diferentes torneos"
       ],
       technologies: ["React", "JavaScript", "Tailwind CSS", "Vercel"]
     }
   ];
-
-  const toggleProject = (id: number) => {
-    setActiveProject(activeProject === id ? null : id);
-  };
 
   return (
     <div className="max-w-[1200px] mx-auto py-16 px-4 md:px-8" id="work">

@@ -18,7 +18,7 @@ const Works = () => {
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                         <span className='text-2x1 font-bold text-white tracking-wider'>Eccomerce de Prueba</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://www.basquetparaadultos.com/" target='_blank'>
+                            <a href="https://github.com/GonzaTorres99/Carrito-Login-NodeJS" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Ver en GitHub
                                 </button>
@@ -48,7 +48,7 @@ const Works = () => {
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
                         <span className='text-2x1 font-bold text-white tracking-wider'>Mi Movielist</span>
                         <div className='pt-8 text-center'>
-                            <a href="">
+                            <a href="https://github.com/GonzaTorres99/TP-Final-con-React-Vite" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     Ver en GitHub
                                 </button>

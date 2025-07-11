@@ -1,6 +1,7 @@
 import bpa from '/bpa.png'
 import tateti from '/tateti.png'
 import movielist from '/movielist.png'
+import panaderia from '/panaderia.png'
 
 const Works = () => {
     return (
@@ -14,13 +15,13 @@ const Works = () => {
 
                 <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16]
                             group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
-                    <img src={bpa} className="w-full h-full object-cover" />
+                    <img src={panaderia} className="w-full h-full object-cover" />
                     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                        <span className='text-2x1 font-bold text-white tracking-wider'>Basquet para adultos</span>
+                        <span className='text-2x1 font-bold text-white tracking-wider'>Eccomerce de Prueba</span>
                         <div className='pt-8 text-center'>
                             <a href="https://www.basquetparaadultos.com/" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Ver
+                                    Ver en GitHub
                                 </button>
                             </a>
                         </div>

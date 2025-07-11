@@ -4,11 +4,10 @@ import { saveAs } from 'file-saver';
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
-  // Estado para manejar la descarga
   const [isDownloading, setIsDownloading] = useState(false);
   
-  // URL del CV - puedes guardarlo en public o en un servicio de almacenamiento
-  const cvUrl = '/CV-Torres_Gonzalo.pdf'; 
+  // URL del CV - solución universal
+  const cvUrl = `${window.location.origin}/CV-Torres_Gonzalo.pdf`;
   
   // Función para manejar la descarga
   const handleDownloadCV = async () => {

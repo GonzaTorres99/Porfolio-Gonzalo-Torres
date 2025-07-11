@@ -7,7 +7,7 @@ const Works = () => {
         <div className="max-w-[1200px] mx-auto p-5" id="work">
             <div className="pb-8">
                 <p className="text-4xl mb-3 font-bold primary-color">Proyectos Personales</p>
-                <p className="text-gray-400">Un recorrido por mis proyectos con los que empeze a afianzar mis conocimientos</p>
+                <p className="text-gray-400">Un recorrido por mis proyectos con los que empecé a afianzar mis conocimientos</p>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

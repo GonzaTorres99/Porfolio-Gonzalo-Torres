@@ -13,7 +13,7 @@ const About = () => {
                         
                         <div className='space-y-4 text-lg'>
                             <p>
-                                 ¡Hola! Soy <strong>Gonzalo Torres</strong>, finalize la Diplomatura de Full Stack Developer realizada en la UTN regional de BS As en agosto de 2023.
+                                 ¡Hola! Soy <strong>Gonzalo Torres</strong>, finalicé la Diplomatura de Full Stack Developer realizada en la Universidad Tecnologica Nacional regional de Buenos Aires en agosto de 2023.
                             </p>
                             
                             <p>

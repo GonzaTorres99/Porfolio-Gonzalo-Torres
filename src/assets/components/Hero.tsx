@@ -8,7 +8,7 @@ const Hero = () => {
   const [isDownloading, setIsDownloading] = useState(false);
   
   // URL del CV - puedes guardarlo en public o en un servicio de almacenamiento
-  const cvUrl = '/CV-Torres Gonzalo.pdf'; 
+  const cvUrl = '/CV-Torres_Gonzalo.pdf'; 
   
   // Función para manejar la descarga
   const handleDownloadCV = async () => {
